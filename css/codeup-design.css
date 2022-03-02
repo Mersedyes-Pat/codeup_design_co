@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+/*STYLE OVERVIEW*/
 /*color scheme*/
 :root {
     --white: #FFFFFF;
@@ -13,9 +17,44 @@
     --gray: #e6e6e6;
 }
 
-/*font sizes*/
+body {
+    font-family: 'Abel', sans-serif;
+    font-size: 0.75rem;
+    background-color: #f0f0f0;
+}
+/*font sizes
+header font
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+}
 
-/*STYLE OVERVIEW*/
+/*header font-sizes*/
+
+h1 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 0.75rem;
+}
+
+.row {
+    margin: 0;
+}
+
+/*header*/
+
+/*section uno*/
+
+
+/*main*/
+
+
 
 
 /*X-Small devices (portrait phones, less than 576px)*/
@@ -44,7 +83,9 @@
 
 }
 
-/*XX-Large devices (larger desktops, 1400px and up)*/
+/*XX-Large devices (larger desktops, 1400px and up) - DON'T NEED
 @media (min-width: 1400px) {
 
 }
+*/
+ */
