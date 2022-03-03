@@ -50,19 +50,104 @@ h5 {
 }
 
 /*header*/
+header nav .logo {
+    background-color: #f0f0f0;
+    height: auto;
+    margin: auto;
+}
 
+header nav image{
+    width: auto;
+    margin: auto;
+    z-index: auto; /*need to get white line in there, don't know how*/
+}
+
+a {
+    color: #008080;
+}
 /*section uno*/
+.container .circle {
+    width: 105px;
+    height: 105px;
+    color: white;
+    border: 5px solid white;
+}
+
+/* circles*/
+.design {
+    background-color: #e6563b;
+}
+
+.develop {
+    background-color: #dea03d;
+}
+
+.support {
+    background-color: #7cb06c;
+}
+
+.host {
+    background-color: #00aba9;
+}
 
 
 /*main*/
+.title {
+    margin: 5rem 0 2rem 0;
+    font-size: 1.1rem;
+}
+.card {
+    background-color: #f0f0f0; /*white*/
+}
+.card-img-top {
+    border: 5px solid #e6e6e6;
+}
+.card-body {
+    padding: 0 0 1.25rem 0;
+}
 
+.letter {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+}
 
+.custom-header {
+    line-height: 18px;
+    text-align: center;
+}
 
+.side {
+    display: flex;
+    margin-bottom: 1rem;
+}
 
-/*X-Small devices (portrait phones, less than 576px)*/
-/*No media query for `xs` since this is the default in Bootstrap*/
+.sideImage {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border: 2px solid #e6e6e6;
+    border-radius: 2px;
+}
+
+/* the right container */
+aside .side h4 {
+    font-size: 1.3rem;
+}
+
+aside h5 {
+    font-size: 1.05rem;
+}
+
+aside > p:nth-child(4) {
+    font-size: 1rem;
+}
+
 
 /*WIREFRAMES ACCORDING TO THE DEVICE SCREEN SIZE (XS, SM, MD, LG, XL)*/
+/*X-Small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` as we are taking the mobile-first approach*/
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     .extra-small-logo-only {
@@ -82,7 +167,9 @@ h5 {
 
 /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
+    .container {
+        width: 1440px;
+    }
 }
 
 /*XX-Large devices (larger desktops, 1400px and up) - DON'T NEED
@@ -90,4 +177,3 @@ h5 {
 
 }
 */
- */
