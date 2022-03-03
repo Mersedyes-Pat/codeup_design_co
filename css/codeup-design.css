@@ -98,9 +98,11 @@ a {
 }
 .card {
     background-color: #f0f0f0; /*white*/
+    box-sizing: content-box /*!important;*/
 }
 .card-img-top {
     border: 5px solid #e6e6e6;
+    box-sizing: content-box !important;
 }
 .card-body {
     padding: 0 0 1.25rem 0;
