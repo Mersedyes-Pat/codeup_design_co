@@ -31,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*header font-sizes*/
-
 h1 {
     font-size: 50px;
     font-weight: 300px;
@@ -159,7 +158,9 @@ aside > p:nth-child(4) {
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-
+    .d-md-flex {
+        width: 768px;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
